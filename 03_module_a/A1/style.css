@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body div {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    height: 200px;
+    width: 200px;
+}
+
+body div div {
+    position:absolute;
+    left:10;
+    opacity:0.5;
+}
+img {
+    height: 200px;
+}

@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height:300px;
+}
+div:hover{
+    background:yellow;
+}
+
+img{
+    height:100px;
+}

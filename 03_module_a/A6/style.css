@@ -1,0 +1,15 @@
+body div{
+    min-height: 100vh;
+    
+}
+body div img{
+    height:300px;
+    width: 250px;
+}
+
+@media (any-hover: hover) {
+  body div img:hover {
+    background: yellow;
+    opacity: 0.5;
+  }
+}
